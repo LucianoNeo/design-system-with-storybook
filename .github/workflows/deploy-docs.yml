@@ -1,13 +1,13 @@
 name: Deploy Storybook
 
-on: 
-  push: 
-    branches: 
-      - master
+on:
+  push:
+    branches:
+      - main
 
-jobs:  
+jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest    
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -22,7 +22,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Build Storybook
-        run: npm run build-storybook     
+        run: npm run build-storybook
 
       - name: Deploy Storybook
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
