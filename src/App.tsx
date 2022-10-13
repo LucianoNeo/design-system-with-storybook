@@ -12,7 +12,7 @@ import './styles/global.css'
 function App() {
 
   return (
-    <div className='w-[100vw] h-[100vh] bg-gray-900 flex flex-col items-center justify-center text-gray-100'>
+    <div className='my-20 bg-gray-900 flex flex-col items-center justify-center text-gray-100'>
       <header className='flex flex-col items-center'>
         <Logo />
         <Heading size='lg' className='mt-4'>
