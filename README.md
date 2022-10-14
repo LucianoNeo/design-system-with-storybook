@@ -11,4 +11,4 @@ https://www.figma.com/file/vTD4kaNmZ2jkihLLmK8ZMI/Ignite-Lab-Design-System?node-
 https://lucianoneo.github.io/design-system-with-storybook/
 
 ## Deploy da SPA:
-- tba
+https://design-system-with-storybook.vercel.app/
